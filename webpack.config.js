@@ -3,7 +3,8 @@ const path = require('path');
 const config = {
     entry: [
         './src/index.js',
-        './src/let+const.js'
+        './src/let+const.js',
+        './src/Template_String.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
