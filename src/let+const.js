@@ -1,6 +1,6 @@
 //const
 const arr = [];
-arr.push(10);
+arr.push(12);
 arr.push(20);
 
 // arr = []; we can not override or replace because we use const
