@@ -1,4 +1,4 @@
-const name = 'MD.AYUB SHAMIM';
+const name = 'MD AYUB SHAMIM';
 const age = 24;
 const email = 'ahmed1.ayub6717@gmail.com';
 
