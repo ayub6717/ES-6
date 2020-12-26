@@ -19,7 +19,14 @@ eval("\n\nvar a = 10;\nvar b = 20;\n\nvar sum = function sum(a, b) {\n  return a
 /*!**************************!*\
   !*** ./src/let+const.js ***!
   \**************************/
-eval("\n\nvar a = 60;\nvar b = 20;\n\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\nconsole.log(sum(a, b));\n\n//# sourceURL=webpack://es-6/./src/let+const.js?");
+eval("\n\n//const\nvar arr = [];\narr.push(12);\narr.push(20);\n\n// arr = []; we can not override or replace because we use const\n\nconsole.log(arr);\n\n// var\n\nvar a = 10;\n\nif (true) {\n    var a = 20;\n    console.log(a);\n}\nconsole.log(a);\n/*  our ans should be 10 but ans will be 20\r\nbecause var is also accessible for block level outsite.\r\nif we use let.... \r\n*/\n\n//let\n\nvar b = 10;\nif (true) {\n    var _b = 20;\n    console.log(_b);\n}\nconsole.log(b);\n\n//# sourceURL=webpack://es-6/./src/let+const.js?");
+})();
+
+(() => {
+/*!********************************!*\
+  !*** ./src/Template_String.js ***!
+  \********************************/
+eval("\n\nvar name = 'MD.AYUB SHAMIM';\nvar age = 24;\nvar email = 'ahmed1.ayub6717@gmail.com';\nvar details = 'Name: ' + name + '; Age: ' + age + '; Email: ' + email;\n\nconsole.log(details);\n\n//# sourceURL=webpack://es-6/./src/Template_String.js?");
 })();
 
 /******/ })()
