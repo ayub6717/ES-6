@@ -12,7 +12,7 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("\n\nvar a = 10;\nvar b = 20;\n\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\nconsole.log(sum(a, b));\n\n//# sourceURL=webpack://es-6/./src/index.js?");
+eval("\n\nvar a = 10;\nvar b = 20;\n\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\nconsole.log(sum(a, b));\n\nconsole.log('rohan');\n\n//# sourceURL=webpack://es-6/./src/index.js?");
 })();
 
 (() => {
@@ -26,7 +26,7 @@ eval("\n\n//const\nvar arr = [];\narr.push(12);\narr.push(20);\n\n// arr = []; w
 /*!********************************!*\
   !*** ./src/Template_String.js ***!
   \********************************/
-eval("\n\nvar name = 'MD.AYUB SHAMIM';\nvar age = 24;\nvar email = 'ahmed1.ayub6717@gmail.com';\nvar details = 'Name: ' + name + '; Age: ' + age + '; Email: ' + email;\n\nconsole.log(details);\n\n//# sourceURL=webpack://es-6/./src/Template_String.js?");
+eval("\n\nvar name = 'MD AYUB SHAMIM';\nvar age = 24;\nvar email = 'ahmed1.ayub6717@gmail.com';\nvar address = 'Dhaka';\n\n// const details = 'Name: ' + name + 'Age: ' + age + 'Email: ' + email\n/* this is previous style and very annoying */\n\nvar details = 'Name: ' + name + '; Age: ' + age + '; Email: ' + email + '; Address: ' + address;\nconsole.log(details);\n/* Easy  to concat that's why use template string*/\n\n//# sourceURL=webpack://es-6/./src/Template_String.js?");
 })();
 
 /******/ })()
