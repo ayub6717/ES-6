@@ -7,7 +7,8 @@ const config = {
         './src/Template_String.js',
         './src/Arrow-function.js',
         './src/Lexical-this.js',
-        './src/Object.js'
+        './src/Object.js',
+        './src/Destructuring.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
