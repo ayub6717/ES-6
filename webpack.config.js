@@ -4,7 +4,8 @@ const config = {
     entry: [
         './src/index.js',
         './src/let+const.js',
-        './src/Template_String.js'
+        './src/Template_String.js',
+        './src/Arrow-function.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
