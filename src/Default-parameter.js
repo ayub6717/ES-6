@@ -3,4 +3,3 @@ console.log(add(10));
 
 let sqr = (a=1, b=a) => a*b;
 console.log(sqr(10));
-console.log(sqr());
