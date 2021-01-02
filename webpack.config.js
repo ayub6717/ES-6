@@ -9,7 +9,9 @@ const config = {
         './src/Lexical-this.js',
         './src/Object.js',
         './src/Destructuring.js',
-        './src/Default-parameter.js'
+        './src/Default-parameter.js',
+        './src/Rest-operator.js',
+        './src/Spread-operator.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
