@@ -1,7 +1,8 @@
-const a = 10;
-const b = 20;
+import * as Module_system from './Module-system';
+import * as Spread_operator from './Spread-operator';
+import {add, mod} from './Module-system';
 
-const sum = (a, b) => a + b;
-
-console.log(sum(a, b));
+console.log(Module_system.sub(10, 20));
+console.log(mod(10, 3));
+console.log(Spread_operator.obj2);
 
