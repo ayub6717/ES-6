@@ -1,5 +1,5 @@
 export var obj = {
-    Name: 'MD AYUB',
+    Name: 'MD. AYUB',
     Email: 'ahmed1.ayub6717@gmail.com'
 }
 
