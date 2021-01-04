@@ -11,7 +11,8 @@ const config = {
         './src/Destructuring.js',
         './src/Default-parameter.js',
         './src/Rest-operator.js',
-        './src/Promise.js'
+        './src/Promise.js',
+        './src/Map.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
