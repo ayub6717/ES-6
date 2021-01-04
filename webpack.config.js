@@ -10,7 +10,8 @@ const config = {
         './src/Object.js',
         './src/Destructuring.js',
         './src/Default-parameter.js',
-        './src/Rest-operator.js'
+        './src/Rest-operator.js',
+        './src/Promise.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
