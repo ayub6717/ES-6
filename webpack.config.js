@@ -12,7 +12,8 @@ const config = {
         './src/Default-parameter.js',
         './src/Rest-operator.js',
         './src/Promise.js',
-        './src/Map.js'
+        './src/Map.js',
+        './src/Symbols.js'
     ],
         output: {
         path: path.resolve(__dirname, 'dist'),
